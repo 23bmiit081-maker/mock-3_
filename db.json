@@ -1,182 +1,192 @@
 {
-    "seats": [
-        {
-            "id": 1,
-            "seatId": "A1",
-            "row": "A",
-            "number": 1,
-            "status": "available",
-            "type": "Regular"
-        },
-        {
-            "id": 2,
-            "seatId": "A2",
-            "row": "A",
-            "number": 2,
-            "status": "occupied",
-            "type": "Regular"
-        },
-        {
-            "id": 3,
-            "seatId": "A3",
-            "row": "A",
-            "number": 3,
-            "status": "reserved",
-            "type": "Regular"
-        },
-        {
-            "id": 4,
-            "seatId": "A4",
-            "row": "A",
-            "number": 4,
-            "status": "available",
-            "type": "Regular"
-        },
-        {
-            "id": 5,
-            "seatId": "A5",
-            "row": "A",
-            "number": 5,
-            "status": "occupied",
-            "type": "Regular"
-        },
-        {
-            "id": 6,
-            "seatId": "A6",
-            "row": "A",
-            "number": 6,
-            "status": "reserved",
-            "type": "Regular"
-        },
-        {
-            "id": 7,
-            "seatId": "A7",
-            "row": "A",
-            "number": 7,
-            "status": "reserved",
-            "type": "Regular"
-        },
-        {
-            "id": 8,
-            "seatId": "A8",
-            "row": "A",
-            "number": 8,
-            "status": "available",
-            "type": "Regular"
-        },
-        {
-            "id": 9,
-            "seatId": "A9",
-            "row": "A",
-            "number": 9,
-            "status": "occupied",
-            "type": "Regular"
-        },
-        {
-            "id": 10,
-            "seatId": "A10",
-            "row": "A",
-            "number": 10,
-            "status": "reserved",
-            "type": "Regular"
-        },
-        {
-            "id": 11,
-            "seatId": "B1",
-            "row": "B",
-            "number": 11,
-            "status": "available",
-            "type": "Regular"
-        },
-        {
-            "id": 12,
-            "seatId": "B2",
-            "row": "B",
-            "number": 12,
-            "status": "occupied",
-            "type": "Regular"
-        },
-        {
-            "id": 13,
-            "seatId": "B3",
-            "row": "B",
-            "number": 13,
-            "status": "reserved",
-            "type": "Regular"
-        },
-        {
-            "id": 14,
-            "seatId": "B4",
-            "row": "B",
-            "number": 14,
-            "status": "available",
-            "type": "Regular"
-        },
-        {
-            "id": 15,
-            "seatId": "B5",
-            "row": "B",
-            "number": 15,
-            "status": "occupied",
-            "type": "Regular"
-        },
-        {
-            "id": 16,
-            "seatId": "B6",
-            "row": "B",
-            "number": 16,
-            "status": "reserved",
-            "type": "Regular"
-        },
-        {
-            "id": 17,
-            "seatId": "B7",
-            "row": "B",
-            "number": 17,
-            "status": "available",
-            "type": "Regular"
-        },
-        {
-            "id": 18,
-            "seatId": "B8",
-            "row": "B",
-            "number": 18,
-            "status": "occupied",
-            "type": "Regular"
-        },
-        {
-            "id": 19,
-            "seatId": "B9",
-            "row": "B",
-            "number": 19,
-            "status": "reserved",
-            "type": "Regular"
-        },
-        {
-            "id": 20,
-            "seatId": "B10",
-            "row": "B",
-            "number": 20,
-            "status": "reserved",
-            "type": "Regular"
-        },
-        {
-            "id": 21,
-            "seatId": "C1",
-            "row": "C",
-            "number": 1,
-            "status": "reserved",
-            "type": "Regular"
-        }
-    ],
-    "bookings": [
-        {
-            "id": 1,
-            "seatId": "A3",
-            "studentName": "Rahul Shah",
-            "rollNo": "RW001",
-            "date": "2026-09-23",
-            "status": "active"
-        }
-    ]
+  "seats": [
+    {
+      "id": "1",
+      "seatId": "A1",
+      "row": "A",
+      "number": 1,
+      "status": "reserved",
+      "type": "Regular"
+    },
+    {
+      "id": "2",
+      "seatId": "A2",
+      "row": "A",
+      "number": 2,
+      "status": "occupied",
+      "type": "Regular"
+    },
+    {
+      "id": "3",
+      "seatId": "A3",
+      "row": "A",
+      "number": 3,
+      "status": "reserved",
+      "type": "Regular"
+    },
+    {
+      "id": "4",
+      "seatId": "A4",
+      "row": "A",
+      "number": 4,
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": "5",
+      "seatId": "A5",
+      "row": "A",
+      "number": 5,
+      "status": "occupied",
+      "type": "Regular"
+    },
+    {
+      "id": "6",
+      "seatId": "A6",
+      "row": "A",
+      "number": 6,
+      "status": "reserved",
+      "type": "Regular"
+    },
+    {
+      "id": "7",
+      "seatId": "A7",
+      "row": "A",
+      "number": 7,
+      "status": "reserved",
+      "type": "Regular"
+    },
+    {
+      "id": "8",
+      "seatId": "A8",
+      "row": "A",
+      "number": 8,
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": "9",
+      "seatId": "A9",
+      "row": "A",
+      "number": 9,
+      "status": "occupied",
+      "type": "Regular"
+    },
+    {
+      "id": "10",
+      "seatId": "A10",
+      "row": "A",
+      "number": 10,
+      "status": "reserved",
+      "type": "Regular"
+    },
+    {
+      "id": "11",
+      "seatId": "B1",
+      "row": "B",
+      "number": 11,
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": "12",
+      "seatId": "B2",
+      "row": "B",
+      "number": 12,
+      "status": "occupied",
+      "type": "Regular"
+    },
+    {
+      "id": "13",
+      "seatId": "B3",
+      "row": "B",
+      "number": 13,
+      "status": "reserved",
+      "type": "Regular"
+    },
+    {
+      "id": "14",
+      "seatId": "B4",
+      "row": "B",
+      "number": 14,
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": "15",
+      "seatId": "B5",
+      "row": "B",
+      "number": 15,
+      "status": "occupied",
+      "type": "Regular"
+    },
+    {
+      "id": "16",
+      "seatId": "B6",
+      "row": "B",
+      "number": 16,
+      "status": "reserved",
+      "type": "Regular"
+    },
+    {
+      "id": "17",
+      "seatId": "B7",
+      "row": "B",
+      "number": 17,
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": "18",
+      "seatId": "B8",
+      "row": "B",
+      "number": 18,
+      "status": "occupied",
+      "type": "Regular"
+    },
+    {
+      "id": "19",
+      "seatId": "B9",
+      "row": "B",
+      "number": 19,
+      "status": "reserved",
+      "type": "Regular"
+    },
+    {
+      "id": "20",
+      "seatId": "B10",
+      "row": "B",
+      "number": 20,
+      "status": "reserved",
+      "type": "Regular"
+    },
+    {
+      "id": "21",
+      "seatId": "C1",
+      "row": "C",
+      "number": 1,
+      "status": "reserved",
+      "type": "Regular"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "seatId": "A3",
+      "studentName": "Rahul Shah",
+      "rollNo": "RW001",
+      "date": "2026-09-23",
+      "status": "active"
+    },
+    {
+      "seatId": "A1",
+      "studentName": "Rahul Shah",
+      "rollNo": "RW001",
+      "date": "2026-10-03",
+      "time": "",
+      "status": "active",
+      "id": "3lu6EXh92U8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
